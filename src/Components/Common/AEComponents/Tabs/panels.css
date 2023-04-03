@@ -1,0 +1,4 @@
+.tableContainer .MuiTableContainer-root {
+    height: 272px;
+    overflow: auto;
+}

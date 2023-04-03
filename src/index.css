@@ -1,0 +1,135 @@
+.MuiAccordion-root {
+  box-shadow: unset;
+}
+
+.MuiAccordionSummary-content {
+  margin: 0px;
+}
+
+.MuiInputBase-root {
+  margin: 0px 0px 0px 0;
+}
+
+.MuiInputBase-input > .MuiOutlinedInput-input> .MuiSelect-select {
+  padding-right: 30px !important;
+}
+
+/* button */
+:root {
+  --ae-button-primary-color: #006fba;
+  --aj-s4 : 100%;
+}
+
+.MuiButton-root:disabled {
+  color: #00000042 !important;
+}
+
+/* colors */
+:root {
+  --ae-color-white: #ffffff;
+}
+
+.MuiButtonBase-root-MuiButton-root {
+  background-color: var(--ae-button-primary-color) !important;
+  padding: 3px 9px !important;
+}
+
+.MuiAutocomplete-root {
+  padding: 0px;
+}
+
+.MuiAutocomplete-noOptions {
+  padding: 0px 0px;
+}
+
+.MuiAutocomplete-root .MuiOutlinedInput-root.MuiInputBase-sizeSmall {
+  padding: 0px 12px;
+  border-radius: unset;
+}
+
+.MuiAutocomplete-input {
+  padding: 0px !important
+}
+
+.MuiPaper-root .paperStyles {
+  width: "100%";
+  margin-bottom: 2;
+  box-shadow: "unset"
+}
+
+.MuiPaper-root {
+  border-radius: 8px !important;
+  box-shadow: unset;
+}
+
+.MuiOutlinedInput-input {
+  padding: 8px !important;
+  background: unset
+}
+
+.MuiInput-input{
+  background: unset;
+}
+
+.MuiPaper-root.MuiMenu-paper {
+  max-width: unset !important;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+}
+
+.MuiPaginationItem-root.Mui-selected {
+  background-color: var(--ae-button-primary-color);
+  color: var( --ae-color-white);
+}
+
+.MuiDialog-root {
+  z-index: 1;
+}
+
+.error .MuiFormHelperText-root {
+  margin: 0px !important;
+  font-size: 12px !important;
+  line-height: 1.66 !important;
+}
+
+.MuiFormHelperText-root {
+  margin: 0px !important;
+  font-size: 12px !important;
+  line-height: 1.66 !important;
+}
+
+.table-container {
+  border-top: unset;
+}
+
+.table-head tr th {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+.table-head tr th:last-child {
+  right: 0;
+  z-index: 3
+}
+
+.table-body tr td {
+  padding-right: 8px;
+  padding-left: 8px !important;
+  border-bottom: 1px solid rgba(224, 224, 224, 1) !important
+}
+
+.table-body tr td:first-child {
+  padding-right: 8px;
+  padding-left: 0 !important;
+}
+
+.table-body tr td:last-child {
+  padding-left: 0 !important;
+}
+
+.table-row-action-pop > div:nth-child(3) {
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+}
+
+.MuiPickersPopper-paper { 
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+}

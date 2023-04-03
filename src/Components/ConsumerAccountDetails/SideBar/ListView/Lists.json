@@ -1,0 +1,27 @@
+{
+  "listName": [
+    { "id": 1, "name": "General Information" },
+    { "id": 2, "name": "History" },
+    { "id": 3, "name": "Support" },
+    { "id": 4, "name": "Transaction Entry" },
+    { "id": 5, "name": "Vendor" },
+    { "id": 6, "name": "Custom" }
+  ],
+  "nested": [
+    {
+      "parentId": 1,
+      "subHeader": "Consumer Details",
+      "nestedOtpions": [
+        "Account",
+        "Notes",
+        "Contact Information",
+        "Tasks",
+        "Payments",
+        "RPs On Account",
+        "Loan Info",
+        "Documents",
+        "Other"
+      ]
+    }
+  ]
+}
